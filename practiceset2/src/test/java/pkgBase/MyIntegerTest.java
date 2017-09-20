@@ -28,6 +28,7 @@ public class MyIntegerTest {
 			    assertEquals(myInt.isPrime(),false);
 	}
 	
+	
 	public void testisEquals() {
 		MyInteger myInt= new MyInteger(3);
 			    assertEquals(myInt.isEquals(myInt),3);

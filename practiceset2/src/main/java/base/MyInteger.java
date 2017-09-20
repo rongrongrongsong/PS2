@@ -1,5 +1,6 @@
 package base;
 
+
 public class MyInteger {
 	private int iValue;
 	public MyInteger()
