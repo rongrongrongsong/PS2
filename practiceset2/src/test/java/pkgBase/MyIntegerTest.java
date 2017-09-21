@@ -15,6 +15,7 @@ public class MyIntegerTest {
 	}
 	
 	
+	
 	@Test			
 	public void testOdd() {
 		MyInteger myInt= new MyInteger(3);
@@ -30,8 +31,8 @@ public class MyIntegerTest {
 	
 	@Test
 	public void testisEquals() {
-		MyInteger myInt= new MyInteger(5);
-			assertTrue(myInt.isEquals(5));
+		MyInteger myInt= new MyInteger(3);
+			assertTrue(myInt.isEquals(3));
 	}
 
 }
