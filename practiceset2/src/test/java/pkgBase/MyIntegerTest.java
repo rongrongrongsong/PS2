@@ -15,7 +15,6 @@ public class MyIntegerTest {
 	}
 	
 	
-	
 	@Test			
 	public void testOdd() {
 		MyInteger myInt= new MyInteger(3);
