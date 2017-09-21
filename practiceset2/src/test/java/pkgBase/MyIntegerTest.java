@@ -7,7 +7,7 @@ import org.junit.Test;
 import base.MyInteger;
 
 public class MyIntegerTest {
-
+	
 	@Test
 	public void testEven() {
 		MyInteger myInt= new MyInteger(2);
@@ -28,10 +28,10 @@ public class MyIntegerTest {
 			    assertEquals(myInt.isPrime(),false);
 	}
 	
-	
+	@Test
 	public void testisEquals() {
-		MyInteger myInt= new MyInteger(3);
-			    assertEquals(myInt.isEquals(myInt),3);
+		MyInteger myInt= new MyInteger(5);
+			assertTrue(myInt.isEquals(5));
 	}
 
 }
